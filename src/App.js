@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
-import './App.css';
+import classes from './App.css';
+import Todo from './Containers/Todo/Todo';
+
 
 class App extends Component {
   render() {
     return (
-     <h1> Hello </h1>
+      <div>
+          <h1 className={classes.hello}> (( React Todo )) </h1>
+          <Todo />
+     </div>
+
     );
   }
 }

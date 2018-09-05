@@ -1,1 +1,7 @@
-
+.hello{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  word-spacing: 0.2em;
+  margin: 50px;
+}
